@@ -11,7 +11,7 @@ namespace TimeDifferenceCSharp
 
             TimeSpan difference = TimeSpan.Parse(firstDate.Subtract(secondDate).ToString());
 
-            Console.Write(difference.Hours);
+            Console.WriteLine(difference.Hours);
             Console.WriteLine(difference.Minutes);
         }
     }
